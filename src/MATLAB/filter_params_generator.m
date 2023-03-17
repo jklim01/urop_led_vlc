@@ -1,4 +1,4 @@
-/*
+%{
     This file is responsible for computed the filter coefficients and some of its related constants, and generating
     a corresponding .inc file to be included in the vlc C++ code. The parent C++ file must define `VAR_DECL`, which
     is contains part of the declaration statement for a variable that accepts the filter coefficients as a braced-
@@ -26,7 +26,7 @@
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-*/
+%}
 
 close all; clearvars; clc;
 

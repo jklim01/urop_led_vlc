@@ -1,4 +1,4 @@
-/*
+%{
     Run this file while a board that has been uploaded with "modulation_sim.cpp" is connected to the computer. This
     code is responsible for sending a sequence of bits to the board for processing and accepting the samples for the
     final modulated and filtered signal, which is plotted out. The code also simulates a VLC system by adding AWGN
@@ -29,7 +29,7 @@
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-*/
+%}
 
 close all; clearvars; clc;
 

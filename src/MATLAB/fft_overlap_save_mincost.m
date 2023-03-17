@@ -1,4 +1,4 @@
-/*
+%{
     This file attempts to find the parameters that will give the highest efficiency when filtering using FFT under the
     overlap-save scheme. This is done by computing the cost per feasible sample from the FFT operation, where an FFT
     operation of size `N` is estimated to have a cost of:
@@ -27,7 +27,7 @@
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-*/
+%}
 
 close all; clearvars; clc;
 

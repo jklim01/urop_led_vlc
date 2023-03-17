@@ -1,4 +1,4 @@
-/*
+%{
     Run this file while a board that has been uploaded with the vlc code ("*_vlc.cpp") and with `ONLINE` defined is
     connected to the computer. This code is responsible for sending a stream of bits to the board to be processed and
     transmitted. Any errors during transmission and the board's idle time statistics, which are sent by the board, are
@@ -27,7 +27,7 @@
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-*/
+%}
 
 close all; clearvars; clc;
 
